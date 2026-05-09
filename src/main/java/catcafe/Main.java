@@ -16,7 +16,7 @@ public class Main {
         cafe.addCat(new FelineOverLord("Morticia", 3));
         cafe.addCat(new FelineOverLord("Fitzby Darnsworth", 5));
 
-        System.out.println("Es schnurren " + cafe.getCatCount() + " Samtpfötchen.");
+        System.out.println("Es schnurren " + cafe.getCatCount() + " Samtpfoetchen.");
 
         Optional<FelineOverLord> meow = cafe.getCatByWeight(3, 4);
         meow.ifPresent(cat -> System.out.println("Gewicht [3,4]: " + cat));
